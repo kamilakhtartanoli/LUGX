@@ -1,0 +1,637 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.head {
+    background-color: #0171f9;
+    height: 90vh;
+    width: 100%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+/* navbar ================== tailewind */
+
+
+.logo {
+    color: white;
+}
+
+.blue {
+    background: linear-gradient(to right,#0171f9,#0165df);
+}
+
+.nav ul {
+    background-color: transparent;
+}
+
+.nav ul li a {
+    color: white;
+}
+.nav ul li{
+    padding: 10px 15px;
+    border-radius: 28px;
+    transition: 0.2s all ease;
+}
+.nav ul li:hover {
+    background-color: #1b7ffa;
+}
+
+/* assasin pic section */
+.sign {
+    border: none;
+    color: white;
+    background-color: #ee626b;
+    padding: 10px 20px;
+    font-size: 1.3vw;
+    font-weight: 100;
+    border-radius: 40px;
+}
+
+.navbar ul li a:hover {
+    background-color: #1b7ffa;
+}
+
+.head-sec {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headings {
+    width: 50%;
+    height: 93.5%;
+    margin-top: 120px;
+    margin-left: 80px;
+    color: white;
+}
+.headings h3{
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+.headings h1{
+    font-size: 4vw;
+    font-weight: 780;
+    margin-top: 30px;
+    display: inline-block;
+}
+.headings p{
+    font-weight: 100;
+    margin-top: 20px;
+    font-size: 1.1vw;
+} 
+
+.image {
+    float: right;
+}
+
+.image img {
+    width: 40vw;
+    height: 55vh;
+    object-fit: cover;
+    margin-top: 80px;
+    margin-right: 80px;
+    border-radius: 40px;
+}
+.headings input{
+    border-radius: 28px;
+    height: 5vh;
+    width: 25vw;
+    border: none;
+    margin-top: 40px;
+    padding: 20px;
+}
+.submit{
+    background-color: #ee626b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    transition: .2s all ease;
+}
+.submit:hover{
+    background-color: #1b7ffa;
+}
+
+
+
+.cards{
+    display: flex;
+}
+.icons {
+    width: 20vw;
+    height: 250px;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 0px 1px 9px black;
+    border-radius: 30px;
+    background-color: white;
+    margin: 0 33px;
+    text-align: center;
+    padding-top:50px;
+}
+.icons h2{
+    font-weight: 700;
+    margin: auto;
+    font-size: 1.2vw;
+    margin-top: 20px;
+}
+.icons i{
+    font-size: 4vw;
+    padding: 15px;
+    border: none;
+    background-color: #0171f9;
+    border-radius: 51%;
+    color: white;
+}
+
+.trending{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.text{
+    margin-left: 50px;
+}
+.text h4{
+    color: #ee626b;
+    font-weight: 600;
+    font-size: 1vw;
+    margin-bottom: 15px;
+}
+.text h1{
+    font-size: 2.2vw;
+}
+.button button{
+    padding: 15px;
+    background-color: #ee626b;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 28px;
+    margin-right: 50px;
+    transition: 0.2s all ease;
+}
+.button button:hover{
+    background-color: #1b7ffa;
+}
+
+.gameimage img{
+    background-size: cover;
+    width: 100%;
+    border-radius: 35px;
+}
+.card-2{
+    width: 350px;
+    height: 340px;
+    border: none;
+    background-color: #eeee;
+    border-radius: 35px;
+    margin-top: 50px;
+    margin: 0 30px;
+    margin-top: 20px;
+    transition: 0.5s all ease;
+}
+.text-2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.heading-2 h5{
+    color: #7a7a7a; 
+}
+.icon-2 i{
+    color: white;
+    background-color: #ee626b;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.card-2main{
+    display: flex;
+}
+
+
+
+.button3 button{
+    background-color: #ee626b;
+    padding: 15px;
+    font-size: 19px;
+    border: none;
+    border-radius: 28px;
+    color: white;
+    transition: 0.2s all ease;
+}
+.button3 button:hover{
+    background-color: #1b7ffa;
+}
+.main-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.text-3 h4{
+    color: #ee626b;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+.topimage img{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 28px;
+}
+.card-3{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 28px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.cd-btn button{
+    color: white;
+    background-color: #ee626b;
+    padding: 10px;
+    border: none;
+    border-radius: 28px;
+    transition: 0.2s all ease;
+}
+.cd-btn button:hover{
+    background-color: #0171f9;
+}
+.adv{
+    text-align: center;
+}
+.adv h5{
+    color: #7a7a7a;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cd-3{
+    display: flex;
+    justify-content: center;
+}
+.cd-btn{
+    text-align: center;
+   
+    top: 35px;
+}
+.text-3{
+    margin-top: 100px;
+
+}
+.button3{
+    margin-top: 100px;
+}
+.text-3 h1{
+    margin-bottom: 50px;
+}
+.card-3main{
+    background-color: #f7f7f7;
+    height: 650px;
+    border-radius: 100px;
+}
+
+.ct-c4{
+    display: flex;
+    justify-content: center;
+}
+
+.cate{
+    text-align: center;
+}
+.cate h1{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.cate h4{
+    margin-top: 100px;
+    color: #ee626b;
+}
+.card-4{
+    width: 250px;
+    height: 284px;
+    background-color: #0171f9;
+    border-radius: 28px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.card-4 h3{ 
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+}
+.card4-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 28px;
+}
+.card-4main{
+    display: flex;
+
+}
+
+/* last image last work */
+.lastimagemain{
+    margin-top: 100px;
+    display: flex;
+}
+.lastcard1{
+    width: 45vw;
+    height: 450px;
+    background-color:#f7f7f7;
+    position: relative;
+    left: 100px;
+    border-radius: 80px;
+    padding: 50px;
+}
+.lastcard2{
+    width: 600px;
+    height: 400px;
+    background-color: #f7f7f7;
+    position: relative;
+    right: 100px;
+    border-radius: 80px;
+    margin-top: 150px;
+    padding: 50px;
+}
+.lastimage img{
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 50px;
+    
+}
+.lastcard1 h5{
+    color: #ee626b;
+    font-size: 1vw;
+}
+.lastcard1 h1{
+    font-size: 2.2vw;
+    margin-top: 25px;
+}
+.lastcard1 p{
+    font-size: 17px;
+    word-spacing: 3px;
+    margin: 30px 0px;
+    font-weight: 480;
+}
+.bl{
+    color: #0171f9;
+}
+.last-btn{
+    background-color: #ee626b;
+    padding: 20px 15px;
+    border: none;
+    color: white;
+    border-radius: 28px;
+    font-size: 1vw;
+    transition: 0.2s all ease;
+}
+.last-btn:hover{
+    background-color: #0171f9;
+}
+
+.lastcard2 h5{
+    color: #ee626b;
+}
+.blue2{
+    color: #0171f9;
+}
+.lastcard2 h1{
+    margin-top: 30px;
+    font-size: 32px;
+}
+.last-btn2{
+    margin-top: 30px;
+    padding: 20px 15px;
+    background-color: #ee626b;
+    color:  white;
+    border: none;
+    border-radius: 28px;
+    transition: 0.2s all ease;
+}
+.last-btn2:hover{
+    background-color: #0171f9;
+}
+
+
+.lastimage{
+    margin-top: 100px;
+
+}
+
+
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: #0171f9;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    text-align: center;
+    font-size: 1.2vw;
+    color: white;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+
+@media (max-width:480px){
+    body{
+        width: 100%;
+        height: 100vh;
+    }
+.cards{
+    flex-wrap: wrap;
+    width: 100%;
+}
+.head{
+    width: 100%;
+}
+.card-2main{
+    flex-wrap: wrap;
+}
+
+.image{
+    float: left;
+    margin-top: 0;
+}
+.head-sec{
+    flex-direction: column;
+    height: 40vh;
+}
+.headings{
+    margin-top: 30px;
+}
+.image{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
+.image img{
+    height: 25vh;
+    width: 60vw;
+    margin-top: 20px;
+}
+.headings input{
+    padding: 0;
+    font-size: 2.5vw;
+    height: 25px;
+    padding: 10px;
+}
+.head{
+    height: 75vh;
+}
+.headings h3{
+    font-size: 3vw;
+}
+.headings h1{
+    font-size: 7vw;
+}
+.headings p{
+    font-size: 3vw;
+}
+.submit{
+    font-size: 2.5vw;
+    padding: 7px;
+}
+.icons{
+    height: 20vh;
+    width: 70%;
+    margin-top: 20px;
+    margin-left:20px ;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.icons h2{
+    font-size: 3vw;
+}
+.icons i{
+    font-size: 5vw;
+}
+.cd-3{
+    flex-wrap: wrap;
+}
+.card-4main{
+    flex-wrap: wrap;
+}
+.cate-card{
+    position: none;
+}
+
+
+.text h4{
+    font-size: 3vw;
+}
+.text h1{
+    font-size: 4vw;
+}
+.button button{
+    font-size: 2.2vw;
+}
+
+/* card=========================  3 */
+
+.card-3main{
+    background-color: white;
+}
+.text-3 h4{
+    font-size: 3vw;
+}
+.text-3 h1{
+    font-size: 5vw;
+}
+.button3 button{
+    font-size: 2.5vw;
+}
+.card-3{
+    width: 70%;
+    height: 400px;
+    margin-top: 20px;
+}
+.card-4main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cate h1{
+    margin-bottom: 0;
+}
+.cate-card{
+    margin-top: 2150px;
+}
+.card-4{
+    margin-top: 120px;
+    width: 80%;
+}
+
+/* last iamge ===================== last */
+.lastimagemain{
+    flex-wrap: wrap;
+    align-items: center;
+}
+.lastimage{
+    display: inline;
+}
+.lastimage img{
+    width: 350px;
+    height: 400px;
+    margin-left: 50px;
+    display: none;
+}
+.lastcard2{
+    width: 350px;
+    position: relative;
+    top: 5px;
+    left: 17px;
+}
+.lastcard2 h1{
+    font-size: 7.2vw;
+}
+.lastcard1{
+    width: 350px;
+    position: relative;
+    left: 17px;
+    top: 40px;
+}
+.lastcard1 h5{
+    font-size: 3vw;
+}
+.lastcard1 h1{
+    font-size: 5vw;
+}
+.last-btn{
+    font-size: 2.8vw;
+}
+.last-btn2{
+    font-size: 2.8vw;
+}
+
+/* footer ====================  footer*/
+.footer{
+    font-size: 2.5vw;
+    word-spacing: 2px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    height: 100px;
+    width: 100%;
+}
+}
+
+
+
+
